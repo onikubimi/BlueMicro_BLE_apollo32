@@ -1,4 +1,8 @@
 #define DEVICE_NAME       "apollo32"
+#define DEVICE_MODEL      "apollo32_2.0"                      
+#define MANUFACTURER_NAME       "onikubimi"
+
+
 #define KEYBOARD_SIDE SINGLE
 #define KEYMAP( \
       k00, k01, \
