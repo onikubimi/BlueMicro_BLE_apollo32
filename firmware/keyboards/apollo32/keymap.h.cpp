@@ -1,5 +1,4 @@
-
-
+#include "keymap.h"
 
 std::array<std::array<Key, MATRIX_COLS>, MATRIX_ROWS> matrix =
     KEYMAP2ARRAY(KEYMAP(
@@ -7,3 +6,6 @@ std::array<std::array<Key, MATRIX_COLS>, MATRIX_ROWS> matrix =
         KC_A,    KC_S 
         ));
 
+void setupKeymap() {
+  ;  // this function does nothing in this case.
+}
