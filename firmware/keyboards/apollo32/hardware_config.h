@@ -1,6 +1,10 @@
+#ifndef HARDWARE_CONFIG_H
+#define HARDWARE_CONFIG_H
+
 #define MATRIX_ROWS 2
 #define MATRIX_COLS 2
 #define MATRIX_ROW_PINS {45, 43 } //P1.13=45  
 #define MATRIX_COL_PINS {10, 9 }
 #define DIODE_DIRECTION COL2ROW
 
+#endif /* HARDWARE_CONFIG_H */
